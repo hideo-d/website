@@ -1,0 +1,261 @@
+/*下のコードでコーディング作業を始める前に初期値リセット*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h3,h4,ul,.formitem,input[type="submit"]{
+    font-family: 'Noto Sans JP';
+}
+
+p,footer{
+    font-family: 'Noto Serif JP';
+}
+
+a { 
+    color:#0000FF; text-decoration:none;
+}
+
+a {
+    color:white;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+.mainvisual{
+    padding-top: 252px;
+    padding-bottom: 277px;
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.bx-wrapper{
+    width: 493.33px;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    background: none !important;
+}
+
+.topslide div{
+    height: 100vh;
+    background: center/cover no-repeat;
+}
+
+.maintitle h1{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    font-family: 'Nico Moji';
+    text-shadow: 1px 1px #000,
+                -1px 1px #000,
+                 1px -1px #000,
+                -1px -1px #000;
+}
+
+.maintitle h2{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'Nico Moji';
+    text-shadow: 1px 1px #000,
+                -1px 1px #000,
+                 1px -1px #000,
+                -1px -1px #000;
+}
+
+.toplogo img{
+    width: 200px;
+    height: 200px;
+}
+
+.topside ul{
+    width: 139px;
+    height: 229px;
+    list-style-type: none;
+    font-size: 30px;
+    line-height: 2.3;
+    color: white;
+    text-align: center;
+}
+
+.about{
+    margin-bottom: 67px;
+}
+
+h3#about{
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+
+.about h4{
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+.aboutsection{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutsection img{
+    border-radius: 50%;
+    width: 500px;
+    height: 495px;
+}
+
+.abouttext h3{
+    font-size: 35px;
+    text-align: left;
+    color: black;
+    margin-top: 40px;
+}
+
+.abouttext p{
+    font-size: 18px;
+    line-height: 2;
+    color: black;
+    margin-top: 40px;
+}
+
+.benefit{
+    background-color: black;
+    padding-top: 99px;
+    padding-bottom: 70px;
+}
+
+h3#benefit{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.benefit h4{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.benefitexplanation{
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefitexplanation img{
+    width: 300px;
+    height: 300px;
+}
+
+.benefitexplanation h3{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.benefitexplanation p{
+    font-size: 14px;
+    color: white;
+}
+
+.news{
+    padding-top: 96px;
+    margin-bottom: 128px;
+}
+
+h3#news{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+
+.news h4{
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 92px;
+}
+
+.scroler{
+    height: 207px;
+}
+
+.contact{
+    padding-top: 145px;
+    padding-bottom: 127px;
+    background-color: black;
+}
+
+h3#contact{
+    font-size: 48px;
+    margin-bottom: 101px;
+    color: white;
+    text-align: center;
+}
+
+form{
+    width: 704px;
+    height: 508px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+
+.formitem{
+    width:108px;
+    font-size: 16px;
+    color: white;
+    line-height: 2;
+}
+
+input[type="text"],input[type="email"],input[type="tel"]{
+    width: 496px;
+    height: 30px;
+    margin-left: 100px;
+}
+
+textarea{
+    width: 496px;
+    height: 196px;
+    margin-left: 100px;
+}
+
+input[type="submit"]{
+    margin-left: 200px;
+    padding: 10px 100px 10px 100px;
+    font-size: 20px;
+    color: black;
+    background-color: #d9d9d9;
+    border-radius: 7px;
+}
+
+footer{
+    font-size: 20px;
+    color:white;
+    background-color: #4d4d4d;
+    line-height: 2;
+    text-align: center;
+}
